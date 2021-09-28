@@ -18,7 +18,7 @@ resource "aws_instance" "demoinstance1" {
   instance_type = "t2.micro"
   key_name = "tests"
   vpc_security_group_ids = [ aws_security_group.allow_ssh.id ]
-  subnet_id = aws_subnet.demoinstance1.id
+  subnet_id = aws_subnet.demosubnet2.id
 
   tags = {
     Name = "My Private Instance"
