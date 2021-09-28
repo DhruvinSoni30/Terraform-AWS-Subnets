@@ -312,14 +312,14 @@ So, now our entire code is ready. We need to run the below steps to create infra
 
 * Terraform will create below resources
 
-* VPC
-* Public Subnet for EC2 instance & NAT Gateway
-* Private Subnet for EC2 Instance
-* Route table for Public & Private Subnets and NAT Gateway
-* Internet Gateway
-* EIP
-* NAT Gateway
-* Security Group
-* EC2 instances
+  * **VPC**
+  * **Public Subnet for EC2 instance & NAT Gateway**
+  * **Private Subnet for EC2 Instance**
+  * **Route table for Public & Private Subnets and NAT Gateway**
+  * **Internet Gateway**
+  * **EIP**
+  * **NAT Gateway**
+  * **Security Group**
+  * **EC2 instances**
 
 That's it now, you have learned how to create various resources in AWS using Terraform.
